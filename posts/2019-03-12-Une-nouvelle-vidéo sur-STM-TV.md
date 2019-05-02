@@ -2,7 +2,7 @@
 layout: post
 title: Une nouvelle vidéo sur STM TV
 excerpt: Une nouvelle vidéo a été mise sur la chaîne STM TV.
-date: {}
+date: 02/04/2019
 tags: Vidéo
 author: Simon
 published: true
