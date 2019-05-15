@@ -9,10 +9,22 @@
    		<meta name="msapplication-TileColor" content="#3366fe">
 		<meta name="theme-color" content="#3366fe">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+      <meta property="og:url"           content="https://www.stm-tv.github.io" />
+ 	  <meta property="og:type"          content="website" />
+ 	  <meta property="og:title"         content="STM TV" />
+	  <meta property="og:description"   content="La Web TV du collège Sainte Marie d'Aire sur la Lys crée par des éléves du club presse du collège" />
+	  <meta property="og:image"         content="https://stm-tv.github.io/media/banniere.png" />
 	</head>
 	<body class="is-preload">
-      <div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v3.3"></script>
+      <!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
 <style type="text/css">
 
 .responsivelogo {
@@ -70,7 +82,10 @@
 			<footer id="footer">
 				<ul class="icons">
                   <li>Partagez sur </li>
-                  <li><div class="fb-share-button" data-href="https://stm-tv.github.io" data-layout="button_count" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fstm-tv.github.io%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Partager</a></div></li>
+                  <li><div class="fb-share-button" 
+    data-href="https://www.stm-tv.github.io/" 
+    data-layout="button_count">
+  </div></li>
 					<li><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fstm-tv.github.io%2F&text=La+Webtv+du+college+saite+marie&hashtags=news,stmtv,saintemarie,college" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 					<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
 				</ul>
