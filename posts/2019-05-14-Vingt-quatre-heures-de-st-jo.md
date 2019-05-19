@@ -1,7 +1,10 @@
 ---
+layout: post
 title: 24h de St Jo
+excerpt: La Team SMA au 24h de st Jo
 author: Baptiste
 date: 14/05/2019
+tags: Vidéo, News
 published: true
 ---
 
