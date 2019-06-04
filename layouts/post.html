@@ -4,13 +4,11 @@
     <%= data.title %>
   </h1><br>
   <% if(data.date) { %>
-    <time class="post-date">
-      <span>Ecrit le <%= data.date %></span>
-    </time>
+   
   <% } %> 
     <% if(data.author) { %>
     <time>
-      <span> par <%= data.author %></span>
+      <span>Ecrit par <%= data.author %></span>
     </time>
   <% } %>
   <div class="post-tags">
