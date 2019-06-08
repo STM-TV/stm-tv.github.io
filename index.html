@@ -64,82 +64,7 @@
 			<section id="one" class="wrapper style2 special">
 				<header class="major">
 					<script src="day.js">INFO : Votre navigateur ne prends pas en charge le Javascript donc le site peut mal fonctionner</script>
-             utilisant la fonction prompt en javascript. Par la suite sont nom est stocké dans un cookie, et à chaque visite, son nombre de visites est augmenté de 1 dans un autre cookie.
-
-Voici le code:
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
-33
-34
-35
-36
-37
-38
-39
-40
-41
-42
-43
-44
-45
-46
-47
-48
-49
-50
-51
-52
-53
-54
-55
-56
-57
-58
-59
-60
-61
-62
-63
-64
-65
-66
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>Se souvenir d'un visiteur</title>
-    </head>
-    <body>
+             
         Bonjour <strong id="visit_name">anonyme</strong>,<br />
         Ceci est votre visite N&deg; <strong id="nb_visits">1</strong>.<br />
         <input type="button" value="Supprimer mes informations" onclick="scookie('visit_name','',-1);scookie('nb_visits','',-1);" /><br />
@@ -179,7 +104,7 @@ Voici le code:
                         }
                         if(gcookie('visit_name')=='' || gcookie('nb_visits')=='')
                         {
-                                name = prompt('Quel est votre nom?','anonyme');
+                                name = 'anonyme';
                                 if(name=='')
                                 {
                                         name='anonyme';
