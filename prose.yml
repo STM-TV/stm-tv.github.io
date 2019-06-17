@@ -2,14 +2,8 @@ prose:
   rooturl: '_posts'
   siteurl: 'http://stm-tv.github.io/'
   media: 'media'
-  ignore:
-    - index.md
-    - day.js 
-    - /js
-    - /assets
-    - /layouts
-   
-  metadata:
+
+metadata:
     _posts:
     
     - name: "title"
