@@ -1,6 +1,6 @@
 ---
 
-title : ⚠️ Info : REPORT DIPLÔME NATIONAL DU BREVET
+title : ⚠️ Info REPORT DIPLÔME NATIONAL DU BREVET
 author :  J. BONTE
 tag : news
 ---
