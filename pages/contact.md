@@ -8,3 +8,15 @@ published: true
 					<input type="submit" value="=> Continuer" class="formsubmit"> 
 			
 				</form>
+                
+<!-- Do not change the code! -->
+<a id="foxyform_embed_link_191362" href="/#">STM TV</a>
+<script type="text/javascript">
+(function(d, t){
+   var g = d.createElement(t),
+       s = d.getElementsByTagName(t)[0];
+   g.src = "http://fr.foxyform.com/js.php?id=191362&sec_hash=5904e9022f6&width=350px";
+   s.parentNode.insertBefore(g, s);
+}(document, "script"));
+</script>
+<!-- Do not change the code! -->
